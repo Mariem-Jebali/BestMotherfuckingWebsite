@@ -1,0 +1,186 @@
+body{
+    font-family:Open Sans,Arial;
+    margin: 40px auto;
+    max-width: 800px;
+    line-height: 1.4;
+    font-size: 16px;
+    color: #444;
+    padding: 0 10px;
+    text-align:justify
+}
+.button{background-color: #e7e7e7; font-size: 16px;border-radius: 8px;}
+a{
+    color:#0051c9
+}
+
+ a:visited{
+    color:#7d013e
+}
+
+.wrong{
+    color:#c0392b;
+    text-decoration: underline;
+}
+
+.mfw{
+    color:#4d0000
+}
+
+.citneed{
+    vertical-align:top;
+    font-size:0.7px;
+    padding-left:0.3px
+}
+
+.shittyblue{
+    color:#00e
+}
+.violet{color: blueviolet;
+}
+small{
+    font-size:7px;
+}
+
+.really{
+    margin-top:-10px;
+}
+
+.picture-cat{
+    float:left;
+    width:40%;
+    overflow:hidden;
+    margin-right:10px;
+}
+.text-picture::after {
+    clear:both;
+    content: "";
+    display: block;
+}
+.picture-cat img{
+    width:100%
+}
+
+.caption{
+    font-size:.7em
+}
+
+
+ul li img{
+    height:15px
+}
+
+blockquote{
+    color:#456;
+    margin-left:0;
+    margin-top:20px;
+    margin-bottom:20px
+}
+blockquote author{
+    display:block;
+    clear:both;
+    font-size:.6em;
+    margin-left:2.4rem;
+    font-style:oblique
+}
+
+blockquote span{
+    float:left;
+    margin-left:1rem;
+    padding-top:1rem
+}
+
+
+blockquote author:before{
+    content:"- ";
+    margin-right:1em
+}
+
+blockquote:before{
+    font-family:Times New Roman,Times,Arial;
+    color:#666;
+    content:open-quote;
+    font-size:4px;
+    font-weight:600;
+    float:left;
+    margin-top:0;
+    margin-right:0.2px;
+
+}
+
+blockquote:after{
+    content:"";
+    display:block;
+    clear:both
+}
+
+.visited{
+    color:#941352
+}
+
+.visited-maroon{
+    color:#85144b
+}
+
+
+.add-contrast {
+    color:#000;
+    top:10px;
+    cursor:pointer;
+    position:fixed;
+    right:10px;
+    font-size:12px;
+    text-decoration:underline;
+}
+
+.blackmode{
+    cursor:pointer;
+    position:fixed;
+    right:10px;
+    font-size:.8em;
+    color:#fff;
+    background-color:#000;
+    top:34px;
+    padding:2px 5px;
+    text-decoration:underline;
+}
+
+.cool{
+    color:#444;
+    font-weight:700;
+}
+
+.cool:before{
+    content:"";
+    display:inline-block;
+    width:10px;
+    height:10px;
+    margin-left:0.2px;
+    margin-right:0.2px;
+    background-color:#444
+}
+
+.better{
+    color:#454545;
+    font-weight:700
+}
+
+.better:before{
+    content:"";
+    display:inline-block;
+    width:10px;
+    height:10px;
+    margin-left:0.2px;
+    margin-right:0.2px;
+    background-color:#454545
+}
+
+.kopimi{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;height:30px
+}
+
+.fuck{
+    font-family:monospace;
+    font-size:.9em
+}
